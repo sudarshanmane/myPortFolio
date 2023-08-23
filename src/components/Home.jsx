@@ -14,7 +14,7 @@ const Home = () => {
             </div>
           </h1>
           <img
-            src="https://github.com/sudarshanmane/ReactPortfolio/blob/master/src/Images/hi.gif?raw=true"
+            src="https://images.emojiterra.com/google/noto-emoji/unicode-15/animated/1f44b.gif"
             alt=""
           />
         </div>

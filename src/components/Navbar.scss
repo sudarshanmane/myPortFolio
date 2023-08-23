@@ -8,7 +8,8 @@
   padding-right: 2%;
   top: 0px;
   z-index: 1;
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(219, 121, 198, 0.23) 0px 6px 6px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+    rgba(219, 121, 198, 0.23) 0px 6px 6px;
 
   .portfolio_log_image {
     margin-right: 4%;
@@ -34,5 +35,8 @@
   // border: 10px solid yellow;
 }
 
-.ant-segmented-item {
+@media all and (min-width: 600px) and (max-width: 1170px) {
+}
+
+@media all and (min-width: 300px) and (max-width: 599.5px) {
 }

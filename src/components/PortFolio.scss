@@ -1,8 +1,7 @@
 .home_container {
-  background: cover;
-  background-size: 100vh 100vh;
   background: url("https://i.pinimg.com/564x/59/02/d5/5902d53758434e1f519988d3325e08a9.jpg");
-
+  background-repeat: repeat;
+  width: 100%;
   .navbar_container {
     position: sticky;
   }
@@ -11,5 +10,6 @@
     position: sticky;
     top: 0px;
     margin-top: 0px;
+    width: 100%;
   }
 }
