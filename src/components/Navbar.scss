@@ -12,14 +12,22 @@
     rgba(219, 121, 198, 0.23) 0px 6px 6px;
 
   .portfolio_log_image {
+    width: 7%;
+    height: 80px;
     margin-right: 4%;
+    padding: 1%;
+
     a {
       display: flex;
       align-items: center;
     }
+
     a > img {
-      width: 20%;
+      width: 100%;
     }
+  }
+  .dropdown-container {
+    display: none;
   }
 }
 
@@ -30,13 +38,104 @@
   border-radius: 0px;
   font-size: 15px;
   font-weight: 700;
-
-  // margin-right: 4%;
-  // border: 10px solid yellow;
 }
 
-@media all and (min-width: 600px) and (max-width: 1170px) {
+@media all and (min-width: 769.9px) and (max-width: 1170px) {
+  .navbar_container {
+    .portfolio_log_image {
+      width: 7%;
+      height: 80px;
+      margin-right: 4%;
+      padding: 1%;
+
+      a {
+        display: flex;
+        align-items: center;
+      }
+
+      a > img {
+        width: 140%;
+      }
+    }
+    .dropdown-container {
+      display: none;
+    }
+  }
 }
 
-@media all and (min-width: 300px) and (max-width: 599.5px) {
+@media all and (min-width: 450px) and (max-width: 770px) {
+  .navbar_container {
+    .portfolio_log_image {
+      width: 7%;
+      height: 80px;
+      margin-right: 4%;
+      padding: 1%;
+
+      a {
+        display: flex;
+        align-items: center;
+      }
+
+      a > img {
+        width: 200%;
+      }
+    }
+    .dropdown-container {
+      display: none;
+    }
+
+    .dropdown-container {
+      display: block;
+    }
+
+    .navbar-elements-space {
+      display: none;
+    }
+  }
+
+  .ant-drawer {
+    font-size: 20px;
+
+    .ant-drawer-wrapper-body {
+      background: rgb(48, 15, 85);
+      font-family: "Times New Roman", Times, serif;
+      .ant-drawer-header {
+        .ant-drawer-title {
+          font-size: 20px;
+          display: flex;
+          align-items: center;
+          height: 40px;
+          color: white;
+        }
+      }
+    }
+
+    .ant-drawer-body {
+      border-top-left-radius: 20px;
+      color: white;
+      border-top: 1px solid rgb(136, 175, 28);
+      .ant-space {
+        display: flex;
+        width: 100%;
+
+        .ant-space-item {
+          height: 35px;
+          display: flex;
+          align-items: center;
+          font-weight: 700;
+          padding-left: 5%;
+
+          span {
+            margin-right: 10px;
+          }
+        }
+
+        .ant-space-item:hover {
+          width: 100%;
+          background: #427581;
+          color: black;
+        }
+      }
+    }
+  }
 }

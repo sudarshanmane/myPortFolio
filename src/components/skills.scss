@@ -25,7 +25,7 @@
 
     .image-container {
       display: grid;
-      grid-template-columns: repeat(7, 1fr);
+      grid-template-columns: repeat(5, 1fr);
       gap: 30px 2%;
       margin: auto;
       align-items: center;
@@ -47,7 +47,7 @@
 
     #image-container-1 {
       display: grid;
-      grid-template-columns: repeat(7, 1fr);
+      grid-template-columns: repeat(5, 1fr);
     }
   }
 }
